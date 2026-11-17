@@ -1,10 +1,9 @@
+
 name: Build Prompt Shots V2 APK
 
 on:
   workflow_dispatch:
   push:
-    paths:
-      - 'PromptShotsV2-CloudBuild.zip'
 
 jobs:
   build:
